@@ -1,0 +1,7 @@
+<h1>Todo List</h1>
+
+<% if (req.hasFlash('success')) { %>
+  <div class="alert alert-success">
+    <%= req.flash('success') %>
+  </div>
+<% } %>
